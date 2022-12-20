@@ -1,6 +1,6 @@
 import "../scss/app.scss";
 
-const collection = [...document.getElementsByClassName("hot")];
+const collection = document.querySelectorAll(".price");
 
 for (let i = 0; i <= collection.length; i++) {
   if(collection[i].classList.contains("hot")) {
